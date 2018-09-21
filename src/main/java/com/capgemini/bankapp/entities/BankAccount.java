@@ -50,4 +50,10 @@ public class BankAccount {
 		this.accountBalance = accountBalance;
 	}
 
+	@Override
+	public String toString() {
+		return "BankAccount [accountId=" + accountId + ", accountHolderName=" + accountHolderName + ", accountType="
+				+ accountType + ", accountBalance=" + accountBalance + "]";
+	}
+
 }

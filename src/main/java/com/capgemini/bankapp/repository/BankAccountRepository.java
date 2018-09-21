@@ -8,9 +8,9 @@ public interface BankAccountRepository {
 	
 	public double getBalance(long accountId);
 	public boolean updateBalance(long accountId, double newBalance);
-	/*public boolean addBankAccount(BankAccount account);
+	public boolean addBankAccount(BankAccount account);
 	public BankAccount findBankAccountById(long accountId);
 	public List<BankAccount> findAllBankAccounts();
-	public BankAccount uodateBankAccount(BankAccount account);
-	public boolean deleteBankAccount(long accountId);*/
+	public BankAccount updateBankAccount(BankAccount account);
+	public boolean deleteBankAccount(long accountId);
 }
